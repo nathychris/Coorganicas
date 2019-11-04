@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Produtos - Coorgânicas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="../images/logooriginal .png" alt="Logo Coorgânicas" class="logooriginal"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a title="Home do site Coorgânicas" href="../../index.html">Home</a></li>
+                        <li><a title="Quem Somos do site Coorgânicas" href="../pages/quemsomos.html">Quem Somos</a></li>
+                        <li><a title="Produtos do site Coorgânicas" href="../pages/produtos.html">Produtos</a></li>
+                        <li><a title="Receitas do site Coorganicas" href="../pages/receitas.html">Receitas</a></li>
+                        <li><a title="Doações do site Coorgânicas" href="">Doações</a></li>
+                        <li><a title="Doações do site Coorgânicas" href="perfil.html">Perfil</a></li>
+                        
+
+                    </ul>
+                </nav>
+            </div>
+            <!--menu-->
+        </div>
+        <!--container-->
+    </header>
+    <main>
+        <div class="container_produto">
+
+            <form method="get" id="formde_busca" class="espaço_busca">
+                <label>
+                    <input input type="text" placeholder="Digite o produto..." class="form_busca"
+                        aria-label="buscar produto">
+                </label>
+
+            </form>
+
+
+            <form method="GET" id="formde_filtro" class="filtro">
+                <select name="Localização">
+                    <option value="Localização" selected disabled>Localização</option>
+                    <option value="valor2">Murutiga do Sul</option>
+                    <option value="valor2">Elias Fausto</option>
+                    <option value="valor2">Elisiário</option>
+                    <option value="valor2">Embauba</option>
+                    <option value="valor2">Embu</option>
+                    <option value="valor2">Embu-Guaçu</option>
+                    <option value="valor2">Emilianopólis</option>
+                    <option value="valor2">Engenheiro Coelho</option>
+                    <option value="valor2">Espirito Santo do Pinhal</option>
+                    <option value="valor2">Espirito Santo do Turvo</option>
+                    <option value="valor2">Estiva Gerbi</option>
+                    <option value="valor2">Estrela d'Oeste</option>
+                    <option value="valor2">Estrela do Norte</option>
+                    <option value="valor2">Euclides da Cunha Paulista</option>
+                    <option value="valor2">Fartura</option>
+                    <option value="valor2">Fernando Prestes</option>
+                    <option value="valor2">Fernandopólis</option>
+                    <option value="valor2">Fernão</option>
+                    <option value="valor2">Ferraz de Vasconcelos</option>
+                    <option value="valor2">Flora Rica</option>
+                    <option value="valor2">Floreal</option>
+                    <option value="valor2">Flórida Paulista</option>
+                    <option value="valor2">Florinia</option>
+                    <option value="valor2">Franca</option>
+                    <option value="valor2">Francisco Morato</option>
+                    <option value="valor2">Franco da Rocha</option>
+                    <option value="valor2">Gabriel Monteiro</option>
+                    <option value="valor2">Galia</option>
+                    <option value="valor2">Garca</option>
+                    <option value="valor2">Gastão Vidigal</option>
+                    <option value="valor2">Gavião Peixoto</option>
+                    <option value="valor2">General Salgado</option>
+                    <option value="valor2">Getulina</option>
+                    <option value="valor2">Glicério</option>
+                    <option value="valor2">Guaicara</option>
+                    <option value="valor2">Guaimbe</option>
+                    <option value="valor2">Guaira</option>
+                    <option value="valor2">Guapiacu</option>
+                    <option value="valor2">Guapiara</option>
+                    <option value="valor2">Guara</option>
+                    <option value="valor2">Guaracai</option>
+                    <option value="valor2">Guaraci</option>
+                    <option value="valor2">Guarani d'Oeste</option>
+                    <option value="valor2">Guaranta</option>
+                    <option value="valor2">Guararapes</option>
+                    <option value="valor2">Guararema</option>
+                    <option value="valor2">Guaratingueta</option>
+                    <option value="valor2">Guarei</option>
+                    <option value="valor2">Guariba</option>
+                    <option value="valor2">Guarujá</option>
+                    <option value="valor2">Guarulhos</option>
+                    <option value="valor2">Guatapara</option>
+                    <option value="valor2">Guzolândia</option>
+                    <option value="valor2">Herculândia</option>
+                    <option value="valor2">Holambra</option>
+                    <option value="valor2">Hortolândia</option>
+                    <option value="valor2">Iacanga</option>
+                    <option value="valor2">Iacri</option>
+                    <option value="valor2">Iaras</option>
+                    <option value="valor2">Ibaté</option>
+                    <option value="valor2">Ibira</option>
+                    <option value="valor2">Ibirarema</option>
+                    <option value="valor2">Ibitinga</option>
+                    <option value="valor2">Ibiuna</option>
+                    <option value="valor2">Icem</option>
+                    <option value="valor2">Iepe</option>
+                    <option value="valor2">Iguaraçu do Tietê</option>
+                    <option value="valor2">Igarapava</option>
+                    <option value="valor2">Igaratá</option>
+                    <option value="valor2">Iguape</option>
+                    <option value="valor2">Ilha Comprida</option>
+                    <option value="valor2">Ilha Solteira</option>
+                    <option value="valor2">Ilhabela</option>
+                    <option value="valor2">Indaiatuba</option>
+                    <option value="valor2">Indiana</option>
+                    <option value="valor2">Indiapora</option>
+                    <option value="valor2">Inubia Paulista</option>
+                    <option value="valor2">Ipaucu</option>
+                    <option value="valor2">Ipero</option>
+                    <option value="valor2">Ipeuna</option>
+                    <option value="valor2">Ipigua</option>
+                    <option value="valor2">Iporanga</option>
+                    <option value="valor2">Ipua</option>
+                    <option value="valor2">Iracemapolis</option>
+                    <option value="valor2">Irapua</option>
+                    <option value="valor2">Irapuru</option>
+                    <option value="valor2">Itabera</option>
+                    <option value="valor2">Itai</option>
+                    <option value="valor2">Itajobi</option>
+                    <option value="valor2">Itaju</option>
+                    <option value="valor2">Itanhaem</option>
+                    <option value="valor2">Itaoca</option>
+                    <option value="valor2">Itapecerica da Serra</option>
+                    <option value="valor2">Itapetininga</option>
+                    <option value="valor2">Itapeva</option>
+                    <option value="valor2">Itapevi</option>
+                    <option value="valor2">Itapira</option>
+                    <option value="valor2">Itapirapua Paulista</option>
+                    <option value="valor2">Itapolis</option>
+                    <option value="valor2">Itaporanga</option>
+                    <option value="valor2">Itapuí</option>
+                    <option value="valor2">Itapura</option>
+                    <option value="valor2">Itaquaquecetuba</option>
+                    <option value="valor2">Itararé</option>
+                    <option value="valor2">Itariri</option>
+                    <option value="valor2">Itatiba</option>
+                    <option value="valor2">Itatinga</option>
+                    <option value="valor2">Itirapina</option>
+                    <option value="valor2">Itirapuá</option>
+                    <option value="valor2">Itobi</option>
+                    <option value="valor2">Itu</option>
+                    <option value="valor2">Itupeva</option>
+                    <option value="valor2">Ituverava</option>
+                    <option value="valor2">Jaborandi</option>
+                    <option value="valor2">Jaboticabal</option>
+                    <option value="valor2">Jacareí</option>
+                    <option value="valor2">Jaci</option>
+                    <option value="valor2">Jacupiranga</option>
+                    <option value="valor2">Jaguariúna</option>
+                    <option value="valor2">Jales</option>
+                    <option value="valor2">Jambeiro</option>
+                    <option value="valor2">Jandira</option>
+                    <option value="valor2">Jardinopólis</option>
+                    <option value="valor2">Jarinu</option>
+                    <option value="valor2">Jaú</option>
+                    <option value="valor2">Jeriquara</option>
+                    <option value="valor2">Joanopólis</option>
+                    <option value="valor2">João Ramalho</option>
+                    <option value="valor2">José Bonifácio</option>
+                    <option value="valor2">Júlio Mesquita</option>
+                    <option value="valor2">Jumirim</option>
+                    <option value="valor2">Jundiaí</option>
+                    <option value="valor2">Junqueiropólis</option>
+                    <option value="valor2">Juquia</option>
+                    <option value="valor2">Juquitiba</option>
+                    <option value="valor2">Lagoinha</option>
+                    <option value="valor2">Laranjal Paulista</option>
+                    <option value="valor2">Lavínia</option>
+                    <option value="valor2">Lavrinhas</option>
+                    <option value="valor2">Leme</option>
+                    <option value="valor2">Lençois Paulista</option>
+                    <option value="valor2">Limeira</option>
+                    <option value="valor2">Lindóia</option>
+                    <option value="valor2">Lins</option>
+                    <option value="valor2">Lorena</option>
+                    <option value="valor2">Lourdes</option>
+                    <option value="valor2">Louveira</option>
+                    <option value="valor2">Lucélia</option>
+                    <option value="valor2">Lucianopólis</option>
+                    <option value="valor2">Luís Antônio</option>
+                    <option value="valor2">Luiziania</option>
+                    <option value="valor2">Lupercio</option>
+                    <option value="valor2">Lutecia</option>
+                    <option value="valor2">Macatuba</option>
+                    <option value="valor2">Macaubal</option>
+                    <option value="valor2">Macedonia</option>
+                    <option value="valor2">Magda</option>
+                    <option value="valor2">Mairinque</option>
+                    <option value="valor2">Mairiporã</option>
+                    <option value="valor2">Manduri<option>
+                    <option value="valor2">Marabá Paulista</option>
+                    <option value="valor2">Maracai</option>
+                    <option value="valor2">Marapoama</option>
+                    <option value="valor2">Mariapólis</option>
+                    <option value="valor2">Marília</option>
+                    <option value="valor2">Marinopólis</option>
+                    <option value="valor2">Martinopólis</option>
+                    <option value="valor2">Matão</option>
+                    <option value="valor2">Maua</option>
+                    <option value="valor2">Mendonça</option>
+                    <option value="valor2">Meridiano</option>
+                    <option value="valor2">Mesopólis</option>
+                    <option value="valor2">Miguelopólis</option>
+                    <option value="valor2">Mineiros do Tietê</option>
+                    <option value="valor2">Mira Estrela</option>
+                    <option value="valor2">Miracatu</option>
+                    <option value="valor2">Mirandopólis</option>
+                    <option value="valor2">Mirante do Paranapanema</option>
+                    <option value="valor2">Mirassol</option>
+                    <option value="valor2">Mirassolândia</option>
+                    <option value="valor2">Mococa</option>
+                    <option value="valor2">Mogi Guaçu</option>
+                    <option value="valor2">Moji das Cruzes</option>
+                    <option value="valor2">Moji-Mirim</option>
+                    <option value="valor2">Mombuca</option>
+                    <option value="valor2">Monções</option>
+                    <option value="valor2">Mongagua</option>
+                    <option value="valor2">Monte Alegre do Sul</option>
+                    <option value="valor2">Monte Alto</option>
+                    <option value="valor2">Monte Aprazível</option>
+                    <option value="valor2">Monte Azul Paulista</option>
+                    <option value="valor2">Monte Castelo</option>
+                    <option value="valor2">Monte Mor</option>
+                    <option value="valor2">Monteiro Lobato</option>
+                    <option value="valor2">Morro Agudo</option>
+                    <option value="valor2">Morungaba</option>
+                    <option value="valor2">Motuca</option>
+                    <option value="valor2">Murutiga do Sul</option>
+                    <option value="valor2">Nantes</option>
+                    <option value="valor2">Narandiba</option>
+                    <option value="valor2">Natividade da Serra</option>
+                    <option value="valor2">Nazare Paulista</option>
+                    <option value="valor2">Neves Paulista</option>
+                    <option value="valor2">Nhandeara</option>
+                    <option value="valor2">Nipoa</option>
+                    <option value="valor2">Nova Alianca</option>
+                    <option value="valor2">Nova Campina</option>
+                    <option value="valor2">Nova Canaa Paulista</option>
+                    <option value="valor2">Nova Castilho</option>
+                    <option value="valor2">Nova Europa</option>
+                    <option value="valor2">Nova Granada</option>
+                    <option value="valor2">Nova Guataporanga</option>
+                    <option value="valor2">Nova Independencia</option>
+                    <option value="valor2">Nova Luzitania</option>
+                    <option value="valor2">Nova Odessa</option>
+                    <option value="valor2">Novais</option>
+                    <option value="valor2">Novo Horizonte</option>
+                    <option value="valor2">Nuporanga</option>
+                    <option value="valor2">Ocaucu</option>
+                    <option value="valor2">Oleo</option>
+                    <option value="valor2">Olimpia</option>
+                    <option value="valor2">Onda Verde</option>
+                    <option value="valor2">Oriente</option>
+                    <option value="valor2">Orindiuva</option>
+                    <option value="valor2">Orlandia</option>
+                    <option value="valor2">Osasco</option>
+                    <option value="valor2">Oscar Bressane</option>
+                    <option value="valor2">Osvaldo Cruz</option>
+                    <option value="valor2">Ourinhos</option>
+                    <option value="valor2">Ouro Verde</option>
+                    <option value="valor2">Ouroeste</option>
+                    <option value="valor2">Pacaembu</option>
+                    <option value="valor2">Palestina</option>
+                    <option value="valor2">Palmares Paulista</option>
+                    <option value="valor2">Palmeira d'Oeste</option>
+                    <option value="valor2">Palmital</option>
+                    <option value="valor2">Panorama</option>
+                    <option value="valor2">Paraguacu Paulista</option>
+                    <option value="valor2">Paraibuna</option>
+                    <option value="valor2">Paraiso</option>
+                    <option value="valor2">Paranapanema</option>
+                    <option value="valor2">Paranapua</option>
+                    <option value="valor2">Parapua</option>
+                    <option value="valor2">Pardinho</option>
+                    <option value="valor2">Pariquera-Acu</option>
+                    <option value="valor2">Parisi</option>
+                    <option value="valor2">Patrocinio Paulista</option>
+                    <option value="valor2">Pauliceia</option>
+                    <option value="valor2">Paulinia</option>
+                    <option value="valor2">Paulistania</option>
+                    <option value="valor2">Paulo de Faria</option>
+                    <option value="valor2">Pederneiras</option>
+                    <option value="valor2">Pedra Bela</option>
+                    <option value="valor2">Pedranopolis</option>
+                    <option value="valor2">Pedregulho</option>
+                    <option value="valor2">Pedreira</option>
+                    <option value="valor2">Pedrinhas Paulista</option>
+                    <option value="valor2">Pedro de Toledo</option>
+                    <option value="valor2">Penapolis</option>
+                    <option value="valor2">Pereira Barreto</option>
+                    <option value="valor2">Pereiras</option>
+                    <option value="valor2">Peruibe</option>
+                    <option value="valor2">Piacatu</option>
+                    <option value="valor2">Piedade</option>
+                    <option value="valor2">Pilar do Sul</option>
+                    <option value="valor2">Pindamonhangaba</option>
+                    <option value="valor2">Pindorama</option>
+                    <option value="valor2">Pinhalzinho</option>
+                    <option value="valor2">Piquerobi</option>
+                    <option value="valor2">Piquete</option>
+                    <option value="valor2">Piracaia</option>
+                    <option value="valor2">Piracicaba</option>
+                    <option value="valor2">Piraju</option>
+                    <option value="valor2">Pirajui</option>
+                    <option value="valor2">Pirangi</option>
+                    <option value="valor2">Pirapora do Bom Jesus</option>
+                    <option value="valor2">Pirapozinho</option>
+                    <option value="valor2">Pirassununga</option>
+                    <option value="valor2">Piratininga</option>
+                    <option value="valor2">Pitangueiras</option>
+                    <option value="valor2">Planalto</option>
+                    <option value="valor2">Platina</option>
+                    <option value="valor2">Poa</option>
+                    <option value="valor2">Poloni</option>
+                    <option value="valor2">Pompeia</option>
+                    <option value="valor2">Pongai</option>
+                    <option value="valor2">Pontal</option>
+                    <option value="valor2">Pontalinda</option>
+                    <option value="valor2">Pontes Gestal</option>
+                    <option value="valor2">Populina</option>
+                    <option value="valor2">Porangaba</option>
+                    <option value="valor2">Porto Feliz</option>
+                    <option value="valor2">Porto Ferreira</option>
+                    <option value="valor2">Potim</option>
+                    <option value="valor2">Potirendaba</option>
+                    <option value="valor2">Pracinha</option>
+                    <option value="valor2">Pradopolis</option>
+                    <option value="valor2">Praia Grande</option>
+                    <option value="valor2">Pratania</option>
+                    <option value="valor2">Presidente Alves</option>
+                    <option value="valor2">Presidente Bernardes</option>
+                    <option value="valor2">Presidente Epitacio</option>
+                    <option value="valor2">Presidente Prudente</option>
+                    <option value="valor2">Presidente Venceslau</option>
+                    <option value="valor2">Promissao</option>
+                    <option value="valor2">Quadra</option>
+                    <option value="valor2">Quata</option>
+                    <option value="valor2">Queiroz</option>
+                    <option value="valor2">Queluz</option>
+                    <option value="valor2">Quintana</option>
+                    <option value="valor2">Rafard</option>
+                    <option value="valor2">Rancharia</option>
+                    <option value="valor2">Redencao da Serra</option>
+                    <option value="valor2">Regente Feijo</option>
+                    <option value="valor2">Reginopolis</option>
+                    <option value="valor2">Registro</option>
+                    <option value="valor2">Restinga</option>
+                    <option value="valor2">Ribeira</option>
+                    <option value="valor2">Ribeirao Bonito</option>
+                    <option value="valor2">Ribeirao Corrente</option>
+                    <option value="valor2">Ribeirao Grande</option>
+                    <option value="valor2">Ribeirao Pires</option>
+                    <option value="valor2">Ribeirao Preto</option>
+                    <option value="valor2">Ribeirao do Sul</option>
+                    <option value="valor2">Ribeirao dos Indios</option>
+                    <option value="valor2">Rifaina</option>
+                    <option value="valor2">Rincao</option>
+                    <option value="valor2">Rinopolis</option>
+                    <option value="valor2">Rio Claro</option>
+                    <option value="valor2">Rio Grande da Serra</option>
+                    <option value="valor2">Rio das Pedras</option>
+                    <option value="valor2">Riolandia</option>
+                    <option value="valor2">Riversul</option>
+                    <option value="valor2">Rosana</option>
+                    <option value="valor2">Roseira</option>
+                    <option value="valor2">Rubiacea</option>
+                    <option value="valor2">Rubineia</option>
+                    <option value="valor2">Sabino</option>
+                    <option value="valor2">Sagres</option>
+                    <option value="valor2">Sales Oliveira</option>
+                    <option value="valor2">Sales</option>
+                    <option value="valor2">Salesopolis</option>
+                    <option value="valor2">Salmourao</option>
+                    <option value="valor2">Saltinho</option>
+                    <option value="valor2">Salto Grande</option>
+                    <option value="valor2">Salto de Pirapora</option>
+                    <option value="valor2">Salto</option>
+                    <option value="valor2">Sandovalina</option>
+                    <option value="valor2">Santa Adelia</option>
+                    <option value="valor2">Santa Albertina</option>
+                    <option value="valor2">Santa Barbara d'Oeste</option>
+                    <option value="valor2">Santa Branca</option>
+                    <option value="valor2">Santa Clara d'Oeste</option>
+                    <option value="valor2">Santa Cruz da Conceicao</option>
+                    <option value="valor2">Santa Cruz da Esperanca</option>
+                    <option value="valor2">Santa Cruz das Palmeiras</option>
+                    <option value="valor2">Santa Cruz do Rio Pardo</option>
+                    <option value="valor2">Santa Ernestina</option>
+                    <option value="valor2">Santa Fe do Sul</option>
+                    <option value="valor2">Santa Gertrudes</option>
+                    <option value="valor2">Santa Isabel</option>
+                    <option value="valor2">Santa Lucia</option>
+                    <option value="valor2">Santa Maria da Serra</option>
+                    <option value="valor2">Santa Mercedes</option>
+                    <option value="valor2">Santa Rita d'Oeste</option>
+                    <option value="valor2">Santa Rita do Passa Quatro</option>
+                    <option value="valor2">Santa Rosa de Viterbo</option>
+                    <option value="valor2">Santa Salete</option>
+                    <option value="valor2">Santana da Ponte Pensa</option>
+                    <option value="valor2">Santana de ParnaibaRegião Central</option>
+                    <option value="valor2">Santo Anastacio</option>
+                    <option value="valor2">Santo Andre</option>
+                    <option value="valor2">Santo Antonio da Alegria</option>
+                    <option value="valor2">Santo Antonio de Posse</option>
+                    <option value="valor2">Santo Antonio do Aracangua</option>
+                    <option value="valor2">Santo Antonio do Jardim</option>
+                    <option value="valor2">Santo Antonio do Pinhal</option>
+                    <option value="valor2">Santo Expedito</option>
+                    <option value="valor2">Santopolis do Aguapei</option>
+                    <option value="valor2">Santos</option>
+                    <option value="valor2">Sao Bento do Sapucai</option>
+                    <option value="valor2">Sao Bernardo do Campo</option>
+                    <option value="valor2">Sao Caetano do Sul</option>
+                    <option value="valor2">Sao Carlos</option>
+                    <option value="valor2">Sao Francisco</option>
+                    <option value="valor2">Sao Joao da Boa Vista</option>
+                    <option value="valor2">Sao Joao das Duas Pontes</option>
+                    <option value="valor2">Sao Joao de Iracema</option>
+                    <option value="valor2">Sao Joao do Pau d'Alho</option>
+                    <option value="valor2">Sao Joaquim da Barra</option>
+                    <option value="valor2">Sao Jose da Bela Vista</option>
+                    <option value="valor2">Sao Jose do Barreiro</option>
+                    <option value="valor2">Sao Jose do Rio Pardo</option>
+                    <option value="valor2">Sao Jose do Rio Preto</option>
+                    <option value="valor2">Sao Jose dos Campos</option>
+                    <option value="valor2">Sao Lourenco da Serra</option>
+                    <option value="valor2">Sao Luis do Paraitinga</option>
+                    <option value="valor2">Sao Manuel</option>
+                    <option value="valor2">Sao Miguel Arcanjo</option>
+                    <option value="valor2">Sao PauloRegião Central</option>
+                    <option value="valor2">Sao Pedro do Turvo</option>
+                    <option value="valor2">Sao Pedro</option>
+                    <option value="valor2">Sao Roque</option>
+                    <option value="valor2">Sao Sebastiao da Grama</option>
+                    <option value="valor2">Sao Sebastiao</option>
+                    <option value="valor2">Sao Simao</option>
+                    <option value="valor2">Sao Vicente</option>
+                </select>
+                <select name="Validade">
+                    <option value="valor2" selected disabled>Validade</option>
+                    <option value="Validade">Perto do Vencimento</option>
+                    <option value="valor3">Longe do Vencimento</option>
+                </select>
+                <select name="Preço">
+                    <option value="Preço" selected disabled>Preços</option>
+                    <option value="valor2">Maiores Preços</option>
+                    <option value="valor3">Menores Preços</option>
+                </select>
+                <label>
+                    <button type="submit" class="btn">Filtrar</button>
+                </label>
+            </form>
+
+
+
+            <form method="GET" id="produtos" class="produtos_todo">
+                <div class="card_produtos">
+                    <img src="../images/Agrupar 51.png">
+                    <div class="card_btn">
+                        <label>
+                            <button type="submit" class="btn2">Fornecer</button>
+                        </label>
+                        <label>
+                            <button type="submit" class="btn1">Receber</button>
+                        </label>
+                    </div>
+                </div>
+                <div class="card_produtos">
+                    <img src="../images/Agrupar 51.png">
+                    <div class="card_btn">
+                        <label>
+                            <button type="submit" class="btn2">Fornecer</button>
+                        </label>
+                        <label>
+                            <button type="submit" class="btn1">Receber</button>
+                        </label>
+                    </div>
+                </div>
+                <div class="card_produtos">
+                    <img src="../images/Agrupar 51.png">
+                    <div class="card_btn">
+                        <label>
+                            <button type="submit" class="btn2">Fornecer</button>
+                        </label>
+                        <label>
+                            <button type="submit" class="btn1">Receber</button>
+                        </label>
+                    </div>
+                </div>
+                <div class="card_produtos">
+                    <img src="../images/Agrupar 50.png">
+                    <div class="card_btn">
+                        <label>
+                            <button type="submit" class="btn2">Fornecer</button>
+                        </label>
+                        <label>
+                            <button type="submit" class="btn1">Receber</button>
+                        </label>
+                    </div>
+                </div>
+                <div class="card_produtos">
+                    <img src="../images/Agrupar 50.png">
+                    <div class="card_btn">
+                        <label>
+                            <button type="submit" class="btn2">Fornecer</button>
+                        </label>
+                        <label>
+                            <button type="submit" class="btn1">Receber</button>
+                        </label>
+                    </div>
+                </div>
+                <div class="card_produtos">
+                    <img src="../images/Agrupar 50.png">
+                    <div class="card_btn">
+                        <label>
+                            <button type="submit" class="btn2">Fornecer</button>
+                        </label>
+                        <label>
+                            <button type="submit" class="btn1">Receber</button>
+                        </label>
+                    </div>
+                </div>
+            </form>
+
+            <ul class="paginacao">
+                <a href="#">
+                    <li>Anterior</li>
+                </a>
+                <a href="#">
+                    <li>1</li>
+                </a>
+                <a href="#">
+                    <li>2</li>
+                </a>
+                <a href="#">
+                    <li>Próxima</li>
+                </a>
+            </ul>
+            </nav>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container_rodape">
+            <div class="projeto">
+                <h3>Projeto</h3>
+                <p>
+                    Um projeto que visa a geração de renda através da junção de mulheres e produtos agrícolas.
+                </p>
+            </div>
+            <div class="contatos">
+                <h3>Contatos</h3>
+                <div class="telefone">
+                    <img src="../images/Grupo de máscara 2.png" alt="icone de telefone" class="svg">
+                    <p>(11) 5794 - 5560</p>
+                </div>
+                <div class="telefone">
+                    <img src="../images/Grupo de máscara 4.png" alt="icone de localização" class="svg">
+                    <p>Av. Paulista</p>
+                </div>
+                <div class="telefone">
+                    <img src="../images/Grupo de máscara 3.png" alt="icone de e-mail" class="svg">
+                    <p>co.organicas@outlook.com.br</p>
+                </div>
+            </div>
+            <div class="redes_sociais">
+                <h3>Redes Sociais</h3>
+                <div class="redesImg">
+                    <a href=""><img src="../images/facebook.png" alt="icone do facebook" class="svg"></a>
+                    <a href=""><img src="../images/instagram.png" alt="icone do instagram" class="svg"></a>
+                    <a href=""><img src="../images/twitter.png" alt="icone do twitter" class="svg"></a>
+                </div>
+            </div>
+        </div>
+        <!--container_rodape-->
+        <div class="copyy">
+            <p class="copy">Coorgânicas - copyright © 2019</p>
+        </div>
+    </footer>
+
+    <!-- <script src="../js/MenuMobile.js"></script> -->
+</body>
+
+</html>
